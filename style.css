@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#5e65ee, #d53d89, #ff6f43)
+}
+
+#calcFrame {
+    display: block;
+    background: #1c191c;
+    height: 440px;
+    width: 280px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.4);
+}
+
+#outLine {
+    padding-left: 12px;
+    padding-top: 70px;
+}
+
+#divLine {
+    padding-left: 12px;
+}
+
+#multLine {
+    padding-left: 12px;
+}
+
+#subLine {
+    padding-left: 12px;
+}
+
+#plusLine {
+    padding-left: 12px;
+}
+
+#equalsLine {
+    padding-left: 12px;
+}
+
+#output {
+    background: #1c191c;
+    color: white;
+}
+
+#ac, #plusMinus, #percent {
+    background: rgba(202, 202, 204, 1) !important;
+    color: #1c191c !important;
+}
+
+#divide, #multiply, #minus, #add, #equals {
+    background: rgba(252, 156, 23, 1) !important;
+}
+
+input {
+    height: 60px;
+    width: 60px;
+    border: 3px solid #1c191c;
+    border-radius: 50%;
+    color: white;
+    background: #555;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#output {
+    width: 250px;
+    border-radius: 0;
+    text-align: right;
+    font-size: 35px;
+}
+
+#zero {
+    width: 125px;
+    border-radius: 40px;
+}
